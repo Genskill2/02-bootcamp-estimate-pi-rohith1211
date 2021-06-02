@@ -13,9 +13,9 @@ def monte_carlo(n):
     nod_circle = 0      # number of dots inside cirle
     nod_square = 0      # number of dots inside square
     for i in range(n):
-        p = random()
-        q = random()
-        if (p**2 + q**2)<=1:
+        x = random()
+        y = random()
+        if (x**2 + y**2)<=1:
             nod_circle+=1
             nod_square+=1
         else:
@@ -42,9 +42,9 @@ def monte_carlo(n):
     nod_circle = 0      # number of dots inside cirle
     nod_square = 0      # number of dots inside square
     for i in range(n):
-        p = random()
-        q = random()
-        if (p**2 + q**2)<=1:
+        x = random()
+        y = random()
+        if (x**2 + y**2)<=1:
             nod_circle+=1
             nod_square+=1
         else:
